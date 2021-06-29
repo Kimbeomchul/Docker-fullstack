@@ -10,8 +10,8 @@
 - Nginx
 - React
 - Node.js
-- Mysql
-- AWS - Elasticbeanstalk
+- Mysql -> AWS RDS 
+- AWS - Elasticbeanstalk / S3 / RDS
 
 ### Configuration
 ![image](https://user-images.githubusercontent.com/54543148/123635157-4c128000-d856-11eb-8c1a-5b6df709b82f.png)
@@ -25,11 +25,5 @@
     * frontend / backend 명명 -> docker-compose
 
 ### Todo
-- Frontend [ O ]
-- Backend [ O ]
-- Mysql [ O ]
-- Docker [ O ]
-- Nginx [ O ] 
-- Travis-CI [ X ]
-- AWS [ X ] 
-- .... ing 
+- Travis-CI [ ing ]
+- AWS [ X ]
