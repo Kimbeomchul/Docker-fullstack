@@ -13,6 +13,10 @@
 - Mysql -> AWS RDS 
 - AWS - Elasticbeanstalk / S3 / RDS
 
+### FrontEnd Demo
+![docker1](https://user-images.githubusercontent.com/54543148/123961283-25398280-d9eb-11eb-8310-eef7fed69980.gif)
+
+
 ### Configuration
 ![image](https://user-images.githubusercontent.com/54543148/123635157-4c128000-d856-11eb-8c1a-5b6df709b82f.png)
 
