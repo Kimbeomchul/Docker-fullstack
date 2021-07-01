@@ -21,3 +21,16 @@ after_success:
   - docker push mickey1102/docker-front
   - docker push mickey1102/docker-back
   - docker push mickey1102/docker-nginx
+
+deploy:
+  provider: elasticbeanstalk
+  region: "ap-northeast-2"
+  app: "docker-full"
+  env: "Dockerfull-env"
+  bucket_name: elasticbeanstalk-ap-northeast-2-380707690899
+  bucket_path: "docker-full"
+  on:
+    branch: master
+
+  access_key_id: $AWS_ACCESS_KEY
+  secret_access_key: $AWS_SECRET_ACCESS_KEY
