@@ -1,7 +1,7 @@
 # Docker-fullstack
 
-### lower ver
-- [Show another docker](https://github.com/Kimbeomchul/Docker-TravisCI)
+### Previous ver
+- [Show previous docker](https://github.com/Kimbeomchul/Docker-TravisCI)
 
 ### Used
 - Docker
@@ -11,7 +11,7 @@
 - React
 - Node.js
 - Mysql -> AWS RDS 
-- AWS - Elasticbeanstalk / S3 / RDS
+- AWS - Elasticbeanstalk / S3 / RDS 
 
 ### Demo
 ![docker1](https://user-images.githubusercontent.com/54543148/123961283-25398280-d9eb-11eb-8310-eef7fed69980.gif)
@@ -29,7 +29,8 @@
   + frontend port 3000 
   + backend port 5000
     * frontend / backend 명명 -> docker-compose
+### AWS 
+- IAM User Value -> Saved in TravisCI Setting Value
+- [참고문서](https://docs.aws.amazon.com/ko_kr/elasticbeanstalk/latest/dg/create_deploy_docker.html)
 
-### Todo
-- Travis-CI [ ing ]
-- AWS [ X ]
+
